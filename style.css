@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tela {
+  width: 240px;
+  background-color: rgba(0, 0, 0, 0.637);
+  height: 40px;
+  padding: 5px;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container {
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.534);
+  height: 250px;
+  padding: 5px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.buttaos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.buttaos button {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.534);
+  color: rgb(255, 255, 255);
+  border: none;
+  margin: 3px;
+  border-radius: 2px;
+}
+
+.buttaos button:hover {
+  background-color:rgba(0, 0, 0, 0.349);
+}
+
+.container .nao {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.container .nao:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
